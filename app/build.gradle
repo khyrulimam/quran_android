@@ -1,4 +1,18 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
 apply plugin: 'com.android.application'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
 apply plugin: 'io.fabric'
 apply plugin: 'me.tatarka.retrolambda'
 
@@ -20,32 +34,32 @@ android {
 
   signingConfigs {
     release {
-      storeFile file(STORE_FILE)
-      storePassword STORE_PASSWORD
-      keyAlias KEY_ALIAS
-      keyPassword KEY_PASSWORD
+      storeFile file("/home/khairulimam/workspaces/MobileDev/KeyStore.jks")
+      storePassword "mantap123"
+      keyAlias "KeyStore"
+      keyPassword "mantap123"
     }
   }
 
   productFlavors {
     madani {
-      applicationId "com.quran.labs.androidquran"
+      applicationId "com.quran.labs.androidquran.odoj"
     }
 
     qaloon {
-      applicationId "com.quran.labs.androidquran.qaloon"
+      applicationId "com.quran.labs.androidquran.qaloon.odoj"
       versionCode 1050
       versionName "1.0.5"
     }
 
     naskh {
-      applicationId "com.quran.labs.androidquran.naskh"
+      applicationId "com.quran.labs.androidquran.naskh.odoj"
       versionCode 1050
       versionName "1.0.5"
     }
 
     shemerly {
-      applicationId "com.quran.labs.androidquran.shemerly"
+      applicationId "com.quran.labs.androidquran.shemerly.odoj"
       versionCode 1050
       versionName "1.0.5"
     }
