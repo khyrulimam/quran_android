@@ -42,6 +42,13 @@ android {
   }
 
   productFlavors {
+
+    odoj {
+      applicationId "com.quran.labs.androidquran.odoj"
+      versionCode 1000
+      versionName "1.0.0"
+    }
+
     madani {
       applicationId "com.quran.labs.androidquran.odoj"
     }
