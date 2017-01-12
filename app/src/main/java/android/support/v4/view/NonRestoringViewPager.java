@@ -5,8 +5,8 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.quran.labs.odoj.util.QuranScreenInfo;
-import com.quran.labs.odoj.util.QuranUtils;
+import com.quran.labs.androidquran.util.QuranScreenInfo;
+import com.quran.labs.androidquran.util.QuranUtils;
 
 /**
  * NonRestoringViewPager is a hack to sometimes prevent ViewPager from restoring its

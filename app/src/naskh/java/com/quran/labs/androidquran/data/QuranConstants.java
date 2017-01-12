@@ -1,7 +1,7 @@
-package com.quran.labs.odoj.data;
+package com.quran.labs.androidquran.data;
 
-import com.quran.labs.odoj.util.NaskhPageProvider;
-import com.quran.labs.odoj.util.QuranScreenInfo;
+import com.quran.labs.androidquran.util.NaskhPageProvider;
+import com.quran.labs.androidquran.util.QuranScreenInfo;
 
 import android.support.annotation.NonNull;
 import android.view.Display;

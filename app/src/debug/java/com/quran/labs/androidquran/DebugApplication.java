@@ -1,9 +1,9 @@
-package com.quran.labs.odoj;
+package com.quran.labs.androidquran;
 
 import com.facebook.stetho.Stetho;
-import com.quran.labs.odoj.component.application.ApplicationComponent;
-import com.quran.labs.odoj.component.application.DaggerDebugApplicationComponent;
-import com.quran.labs.odoj.module.application.ApplicationModule;
+import com.quran.labs.androidquran.component.application.ApplicationComponent;
+import com.quran.labs.androidquran.component.application.DaggerDebugApplicationComponent;
+import com.quran.labs.androidquran.module.application.ApplicationModule;
 import com.squareup.leakcanary.LeakCanary;
 
 import timber.log.Timber;

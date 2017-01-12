@@ -1,8 +1,8 @@
-package com.quran.labs.odoj.component.application;
+package com.quran.labs.androidquran.component.application;
 
-import com.quran.labs.odoj.module.application.ApplicationModule;
-import com.quran.labs.odoj.module.application.DatabaseModule;
-import com.quran.labs.odoj.module.application.DebugNetworkModule;
+import com.quran.labs.androidquran.module.application.ApplicationModule;
+import com.quran.labs.androidquran.module.application.DatabaseModule;
+import com.quran.labs.androidquran.module.application.DebugNetworkModule;
 
 import javax.inject.Singleton;
 
