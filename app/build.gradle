@@ -51,6 +51,8 @@ android {
 
     madani {
       applicationId "com.quran.labs.androidquran"
+      versionCode 1060
+      versionName "1.0.6"
     }
 
     qaloon {
