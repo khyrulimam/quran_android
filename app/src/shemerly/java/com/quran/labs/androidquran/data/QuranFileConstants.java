@@ -1,6 +1,6 @@
-package com.quran.labs.androidquran.data;
+package com.quran.labs.odoj.data;
 
-import com.quran.labs.androidquran.ui.util.TypefaceManager;
+import com.quran.labs.odoj.ui.util.TypefaceManager;
 
 public class QuranFileConstants {
   // server urls

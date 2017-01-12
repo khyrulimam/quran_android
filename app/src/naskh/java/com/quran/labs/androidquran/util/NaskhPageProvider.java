@@ -1,4 +1,4 @@
-package com.quran.labs.androidquran.util;
+package com.quran.labs.odoj.util;
 
 import android.graphics.Point;
 import android.os.Build;

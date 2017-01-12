@@ -1,4 +1,4 @@
-package com.quran.labs.androidquran.module.application;
+package com.quran.labs.odoj.module.application;
 
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 

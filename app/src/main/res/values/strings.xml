@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <string name="app_name">Quran</string>
+  <string name="app_name">Quran - ODOJ</string>
   <string name="downloadPrompt_title">Download Required Files?</string>
   <string name="downloadPrompt">In order for Quran Android to work properly,
         we need to download some files. If you do not do this now, the app
@@ -363,4 +363,14 @@
 
   <!-- format strings -->
   <string name="sura_ayah" translatable="false">%1$d:%2$d</string>
+  <string name="ODOJ_SHARED_PREF">ODOJ_SHARED_PREF</string>
+  <string name="ODOJ_RECITER_NAME">ODOJ_RECITER_NAME</string>
+  <string name="namapembaca">Reciter Name</string>
+  <string name="lapor_wa">Submit ODOJ</string>
+  <string name="etReciterNameHint">Type your name here</string>
+  <string name="titleReciterName">Change reciter name</string>
+  <string name="saverecitersetting">Save</string>
+  <string name="cancelReciterNameSetting">Cancel</string>
+  <string name="lastJuzToast">Alhamdulillah, last page of juz %d</string>
+  <string name="toastReciterChanged">Reciter name succesfully changed</string>
 </resources>

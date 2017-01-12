@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Quran</string>
+  <string name="app_name">Quran - ODOJ</string>
   <string name="downloadPrompt">Agar Quran Android bisa berjalan lancar,
         kita perlu mengunduh beberapa berkas. Jika anda tidak melakukannya sekarang, aplikasi ini
         mungkin tidak akan bekerja dengan handal dan akan memerlukan sambungan Internet untuk pembacaan.
@@ -316,4 +316,13 @@
   <!-- audio manager -->
   <string name="audio_manager">Pengelola Audio</string>
 
+  <!--odoj string-->
+  <string name="namapembaca">Nama Pembaca</string>
+  <string name="lapor_wa">Lapor ODOJ</string>
+  <string name="etReciterNameHint">Ketik nama anda disini</string>
+  <string name="titleReciterName">Ganti nama pembaca</string>
+  <string name="saverecitersetting">Simpan</string>
+  <string name="cancelReciterNameSetting">Batal</string>
+  <string name="lastJuzToast">Alhamdulillah, halaman terakhir juz %d</string>
+  <string name="toastReciterChanged">Nama pembaca telah diganti</string>
 </resources>

@@ -1,7 +1,7 @@
-package com.quran.labs.androidquran.data;
+package com.quran.labs.odoj.data;
 
-import com.quran.labs.androidquran.util.QuranScreenInfo;
-import com.quran.labs.androidquran.util.ShemerlyPageProvider;
+import com.quran.labs.odoj.util.QuranScreenInfo;
+import com.quran.labs.odoj.util.ShemerlyPageProvider;
 
 import android.support.annotation.NonNull;
 import android.view.Display;

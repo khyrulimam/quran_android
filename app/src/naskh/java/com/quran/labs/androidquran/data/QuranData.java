@@ -1,4 +1,4 @@
-package com.quran.labs.androidquran.data;
+package com.quran.labs.odoj.data;
 
 public class QuranData {
 

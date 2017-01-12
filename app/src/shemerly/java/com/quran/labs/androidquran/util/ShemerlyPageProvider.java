@@ -1,4 +1,4 @@
-package com.quran.labs.androidquran.util;
+package com.quran.labs.odoj.util;
 
 public class ShemerlyPageProvider implements QuranScreenInfo.PageProvider {
 
