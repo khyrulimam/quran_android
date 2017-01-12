@@ -1018,10 +1018,17 @@ public class PagerActivity extends QuranActionBarActivity implements
       dialog.setPositiveButton(getString(R.string.saverecitersetting), new DialogInterface.OnClickListener() {
         @Override
         public void onClick(DialogInterface dialogInterface, int i) {
-          SharedPreferences.Editor editor = pref.edit();
-          editor.putString(getString(R.string.ODOJ_RECITER_NAME), etReciter.getText().toString());
-          editor.commit();
-          Toast.makeText(getApplicationContext(), getString(R.string.toastReciterChanged), Toast.LENGTH_SHORT).show();
+          String newName = etReciter.getText().toString();
+          String message = "";
+          if (newName.trim().length() > 1) {
+            SharedPreferences.Editor editor = pref.edit();
+            editor.putString(getString(R.string.ODOJ_RECITER_NAME), newName);
+            editor.commit();
+            message = getString(R.string.toastReciterChanged);
+          }else {
+            message = getString(R.string.toastNotChanged);
+          }
+          Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
           dialogInterface.dismiss();
         }
       });
