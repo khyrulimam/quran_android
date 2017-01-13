@@ -1,16 +1,16 @@
 buildscript {
-    repositories {
-        maven { url 'https://maven.fabric.io/public' }
-    }
+  repositories {
+    maven { url 'https://maven.fabric.io/public' }
+  }
 
-    dependencies {
-        classpath 'io.fabric.tools:gradle:1.+'
-    }
+  dependencies {
+    classpath 'io.fabric.tools:gradle:1.+'
+  }
 }
 apply plugin: 'com.android.application'
 
 repositories {
-    maven { url 'https://maven.fabric.io/public' }
+  maven { url 'https://maven.fabric.io/public' }
 }
 
 apply plugin: 'io.fabric'
@@ -28,8 +28,8 @@ android {
   defaultConfig {
     minSdkVersion 14
     targetSdkVersion 25
-    versionCode 2740
-    versionName "2.7.4"
+    versionCode 2750
+    versionName "2.7.5"
   }
 
   signingConfigs {
@@ -42,12 +42,6 @@ android {
   }
 
   productFlavors {
-
-    odoj {
-      applicationId "com.quran.labs.androidquran.odoj"
-      versionCode 1000
-      versionName "1.0.0"
-    }
 
     madani {
       applicationId "com.quran.labs.androidquran.odoj"

@@ -21,7 +21,7 @@
       android:id="@+id/settings"
       android:icon="@drawable/ic_action_settings"
       android:showAsAction="ifRoom"
-      android:title="@string/namapembaca" />
+      android:title="@string/menu_settings" />
 
   <item
       android:id="@+id/goto_quran"
